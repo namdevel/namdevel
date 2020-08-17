@@ -1,4 +1,4 @@
-[![NAMDEVEL.](https://coverfiles.alphacoders.com/147/147388.jpg)](https://github.com/namdevel)
+[![NAMDEVEL.](https://coverfiles.alphacoders.com/143/143408.jpg)](https://github.com/namdevel)
 
 ### Hi there 👋
 
