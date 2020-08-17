@@ -1,6 +1,6 @@
 [![NAMDEVEL.](https://coverfiles.alphacoders.com/143/143408.jpg)](https://github.com/namdevel)
 
-## Currently working on OSTRAVA and associated projects. 👋
+### Currently working on OSTRAVA and associated projects. 👋
 
 ![Namdevel's github stats](https://github-readme-stats.vercel.app/api?username=namdevel&show_icons=true&hide_border=true)
 
