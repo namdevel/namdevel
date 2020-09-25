@@ -1,7 +1,5 @@
 ### Currently working on OSTRAVA and associated projects. 👋
 
-![Namdevel's github stats](https://api.ostrava.run/github.php?time=43565474565)
-
 ![Namdevel's github stats](https://github-readme-stats.vercel.app/api?username=namdevel&show_icons=true&hide_border=true)
 
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
