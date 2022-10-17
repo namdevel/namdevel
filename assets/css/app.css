@@ -1,0 +1,100 @@
+* {
+  font-family: "Secular One", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .avatar {
+    width: 158px;
+    height: auto;
+    padding-left: 10px;
+  }
+
+  .detail {
+    padding-left: 10px;
+  }
+}
+
+.content-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border: 2px solid rgb(251, 251, 251);
+}
+
+.dark .content-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border: 2px solid rgb(65, 65, 65);
+}
+
+.article h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.article a {
+  text-decoration: none;
+}
+.article p,
+.article a {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.dark .article a {
+  color: #22c55e !important;
+}
+
+.froboto {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.article ul {
+  margin-bottom: 2rem;
+}
+hr {
+  color: #1f2937 !important;
+}
+
+.dark hr {
+  color: #e5e7eb !important;
+}
+pre {
+  color: #e5e7eb;
+  background-color: #1f2937;
+  overflow-x: auto;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.7142857;
+  margin-top: 1.7142857em;
+  margin-bottom: 1.7142857em;
+  border-radius: 0.375rem;
+  padding: 0.8571429em 1.1428571em;
+}
+.dark pre {
+  color: #1f2937;
+  background-color: #e5e7eb;
+  overflow-x: auto;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.7142857;
+  margin-top: 1.7142857em;
+  margin-bottom: 1.7142857em;
+  border-radius: 0.375rem;
+  padding: 0.8571429em 1.1428571em;
+}
+
+.artitle {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: rgb(39 39 42/1);
+}
+
+.arthumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

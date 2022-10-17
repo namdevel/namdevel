@@ -1,0 +1,13 @@
+<template>
+    <div>
+        <header>
+            <navbar></navbar>
+        </header>
+        <main class="cointainer col-md-12 mx-auto p-4 mt-5 ">
+            <slot />
+        </main>
+        <footer class="container col-md-12 mx-auto mt-5">
+            <bottom></bottom>
+        </footer>
+    </div>
+</template>
