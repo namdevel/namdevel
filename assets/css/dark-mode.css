@@ -19,3 +19,7 @@
   border: 1px solid !important;
   border-color: #22c55e !important;
 }
+
+.dark body {
+  background-color: #18181b !important;
+}

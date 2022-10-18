@@ -1,14 +1,13 @@
 <script setup>
-import { useDark, useToggle } from '@vueuse/core'
+const colorList = ['dark', 'light'];
 
-
-const isDark = useDark({
-    selector: 'body',
-    attribute: 'class',
-    valueDark: 'dark',
-    valueLight: 'light',
-})
-const toggleDark = useToggle(isDark)
+function changeColorMode() {
+    const colorMode = useColorMode();
+    const themes = colorMode.preference === 'light' ? 'light' : 'dark';
+    const index = colorList.indexOf(themes);
+    const nextIndex = (index + 1) % colorList.length;
+    colorMode.preference = colorList[nextIndex];
+}
 
 function changeGiscusTheme() {
     const theme = document.body.className === 'dark' ? 'light' : 'dark';
@@ -36,7 +35,7 @@ function changeGiscusTheme() {
             <NuxtLink class="nav-link" to="/blog">Blog</NuxtLink>
             <NuxtLink class="nav-link" to="/projects">Projects</NuxtLink>
             <NuxtLink class="nav-link" to="/about">About</NuxtLink>
-            <button type="button" @click.prevent="changeGiscusTheme();toggleDark()"
+            <button type="button" @click.prevent="changeGiscusTheme();changeColorMode()"
                 class="btn btn-link btn-sm text-decoration-none text-dark dark:text-green gantitema"><i
                     class="fa-solid fa-moon-stars fa-beat" style="--fa-beat-scale: 2.0;"></i></button>
 

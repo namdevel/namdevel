@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/content",
     "@pinia/nuxt",
-    //"@nuxtjs/color-mode",
+    "@nuxtjs/color-mode",
     "@vueuse/nuxt",
   ],
   css: [
@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     "assets/css/dark-mode.css",
     "assets/css/app.css",
   ],
+
   content: {
     highlight: {
       theme: {
@@ -19,5 +20,15 @@ export default defineNuxtConfig({
         dark: "github-light",
       },
     },
+  },
+  colorMode: {
+    preference: "dark", // default value of $colorMode.preference
+    fallback: "light", // fallback value if not system preference found
+    hid: "nuxt-color-mode-script",
+    globalName: "__NUXT_COLOR_MODE__",
+    componentName: "ColorScheme",
+    classPrefix: "",
+    classSuffix: "",
+    storageKey: "nuxt-color-mode",
   },
 });
