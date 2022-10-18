@@ -1,7 +1,4 @@
 <script setup>
-
-
-
 definePageMeta({
     layout: "blog",
 });
@@ -18,8 +15,7 @@ const { data } = await useAsyncData(`content-${path}`, async () => {
 });
 
 const [prev, next] = data.value.surround;
-const colorMode = useColorMode()
-const themes = colorMode.preference === 'light' ? 'light' : 'dark';
+
 useHead({
     title: data.value.article.title,
     meta: [
@@ -30,26 +26,7 @@ useHead({
             content: `https://site.com/${data.value.article.img}`,
         },
     ],
-    script: [
-        {
 
-            src: "https://giscus.app/client.js",
-            'data-repo': "namdevel/namdevel",
-            'data-repo-id': "R_kgDOIPUbFA",
-            'data-category': "General",
-            'data-category-id': "DIC_kwDOIPUbFM4CSB-A",
-            'data-mapping': "og:image",
-            'data-strict': "0",
-            'data-reactions-enabled': "0",
-            'data-emit-metadata': "0",
-            'data-input-position': "top",
-            'data-theme': themes,
-            'data-lang': "en",
-            'data-loading': "lazy",
-            'crossorigin': "anonymous",
-            async: true
-        }
-    ],
 });
 </script>
 <template>
