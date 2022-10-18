@@ -1,4 +1,5 @@
 <script setup>
+
 const colorList = ['dark', 'light'];
 
 function changeColorMode() {
@@ -10,7 +11,7 @@ function changeColorMode() {
 }
 
 function changeGiscusTheme() {
-    const theme = document.body.className === 'dark' ? 'light' : 'dark';
+    const theme = document.documentElement.className === 'dark' ? 'light' : 'dark';
     function sendMessage(message) {
         const iframe = document.querySelector('iframe.giscus-frame');
         if (!iframe) return;
