@@ -7,15 +7,15 @@ defineProps(["prev", "next"]);
 <template>
     <div class="d-flex mb-3">
         <div class="me-auto p-2">
-            <NuxtLink v-if="prev" :to="prev._path">
+            <a v-if="prev" :href="prev._path">
 
                 <span><i class="fa-solid fa-arrow-left me-2"></i> {{ prev.title }} </span>
-            </NuxtLink>
+            </a>
         </div>
         <div class="ms-auto p-2">
-            <NuxtLink v-if="next" :to="next._path">
+            <a v-if="next" :href="next._path">
                 <span> {{ next.title }} <i class="fa-solid fa-arrow-right ms-2"></i></span>
-            </NuxtLink>
+            </a>
         </div>
     </div>
 

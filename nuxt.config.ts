@@ -1,9 +1,8 @@
 export default defineNuxtConfig({
-  target: "static",
   modules: [
     "@nuxt/content",
     "@pinia/nuxt",
-    "@nuxtjs/color-mode",
+    //"@nuxtjs/color-mode",
     "@vueuse/nuxt",
   ],
   css: [

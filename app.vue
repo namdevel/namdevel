@@ -1,4 +1,5 @@
 <script setup>
+
 useHead({
   title: 'Full Stack Developer',
   titleTemplate: (title) => `${title} - NAMDEVEL`,
@@ -15,7 +16,7 @@ useHead({
     { rel: 'stylesheet', type: 'text/css', href: 'https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css' }
   ],
   script: [
-    { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js', body: true }
+    { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js', body: true },
   ],
 })
 </script>

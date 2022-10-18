@@ -1,7 +1,9 @@
 <template>
     <div>
         <header>
-            <navbar></navbar>
+            <client-only>
+                <navbar></navbar>
+            </client-only>
         </header>
         <main class="cointainer col-md-12 mx-auto p-4 mt-5">
             <NuxtPage />
