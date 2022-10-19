@@ -11,6 +11,7 @@ onBeforeMount(() => {
 });
 </script>
 <template>
+    <hr />
     <ul class="nav justify-content-center border-none pb-3 mb-0 ">
         <li class="nav-item"><a href="https://www.github.com/namdevel"
                 class="nav-link px-2 text-muted dark:text-green">Github</a></li>
@@ -21,7 +22,7 @@ onBeforeMount(() => {
     </ul>
 
 
-    <p class="text-center text-muted mb-1">Made with a cup of <i
+    <p class="text-center text-muted mb-2">Made with a cup of <i
             class="fa-duotone fa-mug-hot ms-2 me-2 text-green fa-shake"></i>
         by
         NAMDEVEL</p>
