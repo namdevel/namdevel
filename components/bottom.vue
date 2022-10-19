@@ -27,6 +27,6 @@ onBeforeMount(() => {
         by
         NAMDEVEL</p>
     <a style="font-size:14px" id="commitUrl" target="_blank" class="text-decoration-none">
-        <p id="commitSha" class="text-center text-muted mt-0 mb-3"></p>
+        <p id="commitSha" class="text-center text-muted dark:text-green mt-0 mb-3"></p>
     </a>
 </template>
