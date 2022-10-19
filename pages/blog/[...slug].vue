@@ -44,23 +44,21 @@ useHead({
                     </span>
                 </div>
                 <div>
-                    <span class="froboto dark:text-green"><i class="fa-solid fa-eye me-2"></i>1200 views</span>
+                    <span class="froboto dark:text-green"><i
+                            class="fa-solid fa-clock me-2"></i>{{data.article.readingTime.text}}</span>
                 </div>
                 <div class="ms-auto">
-                    <span class="froboto dark:text-green"><i class="fa-solid fa-calendar me-2"></i>{{
-                    data.article.updated_at }}</span>
+                    <span class="froboto dark:text-green"><i class="fa-solid fa-calendar me-2"></i>
+                        {{data.article.created_at.split(" at ")[0]}}
+                    </span>
                 </div>
 
             </div>
         </header>
         <hr style="color:whitesmoke" />
         <article class="article dark:text-white">
-            <!-- render document coming from query -->
             <ContentRenderer :value="data.article">
-                <!-- render rich text from document -->
                 <ContentRendererMarkdown :value="data.article" />
-
-                <!-- display if document content is empty -->
                 <template #empty>
                     <p>No content found.</p>
                 </template>

@@ -11,8 +11,9 @@
                         <h3 class="card-title dark:text-green">NAMDEVEL (几句レし, HEUSC)</h3>
                         <p class="card-text mb-1 dark:text-green">Software Developer</p>
                         <p class="card-text">
-                            <small class="text-muted dark:text-white">I'm namdevel, a guy who loves to
-                                code, music and coffee. Welcome to my personal website, where you can find my portfolio,
+                            <small class="text-muted dark:text-white fst-italic">I'm namdevel, a guy who loves to
+                                code, music and coffee.<br />Welcome to my personal website, where you can find<br />my
+                                portfolio,
                                 blog and more.</small>
                         </p>
                     </div>

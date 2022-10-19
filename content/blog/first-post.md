@@ -1,5 +1,5 @@
 ---
-title: "Nuxt Content v2 is awesome!"
+title: "Understanding Swift's Value and Reference Types"
 description: "This is my first article!"
 img: "//content-v2-blog.netlify.app/img/cover%20(1).JPG"
 tags: [Nuxt, Content, Learning, first]

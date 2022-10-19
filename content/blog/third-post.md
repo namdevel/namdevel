@@ -1,5 +1,5 @@
 ---
-title: "This is my third article!"
+title: "Learning Web Development from YouTube"
 description: "You finally got the point about Nuxt content"
 img: "https://content-v2-blog.netlify.app/img/cover%20(3).JPG"
 tags: [Nuxt, Content, Learning, second]

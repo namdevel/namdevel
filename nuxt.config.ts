@@ -10,8 +10,10 @@ export default defineNuxtConfig({
     "assets/css/dark-mode.css",
     "assets/css/app.css",
   ],
-
   content: {
+    markdown: {
+      remarkPlugins: ["remark-reading-time"],
+    },
     highlight: {
       theme: {
         // Default theme (same as single string)

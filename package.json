@@ -11,7 +11,8 @@
     "@nuxtjs/color-mode": "^3.1.8",
     "@pinia/nuxt": "^0.4.3",
     "@vueuse/nuxt": "^9.3.0",
-    "nuxt": "^3.0.0-rc.11"
+    "nuxt": "^3.0.0-rc.11",
+    "remark-reading-time": "^2.0.1"
   },
   "dependencies": {
     "@vueuse/core": "^9.3.0"

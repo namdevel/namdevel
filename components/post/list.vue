@@ -1,8 +1,3 @@
-<script setup>
-function getRandomImage() {
-    return "/avatar.jfif";
-}
-</script>
 <template>
     <div class="row mb-5 mt-3">
         <p class="h4 mb-3 me-0  dark:text-green"><i class="fa-solid fa-newspaper me-2"></i> Blog</p>

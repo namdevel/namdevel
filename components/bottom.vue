@@ -12,13 +12,13 @@ onBeforeMount(() => {
 </script>
 <template>
     <hr />
-    <ul class="nav justify-content-center border-none pb-3 mb-0 ">
+    <ul class="nav justify-content-evenly border-none pb-3 mb-4 mt-0 ">
         <li class="nav-item"><a href="https://www.github.com/namdevel"
-                class="nav-link px-2 text-muted dark:text-green">Github</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted dark:text-green">LinkedIn</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted dark:text-green">Telegram</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted dark:text-green">Keybase</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted dark:text-green">About</a></li>
+                class="nav-link px-2 text-muted dark:text-white">Github</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted dark:text-white">LinkedIn</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted dark:text-white">Telegram</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted dark:text-white">Keybase</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted dark:text-white">About</a></li>
     </ul>
 
 
