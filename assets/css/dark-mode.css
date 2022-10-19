@@ -8,16 +8,16 @@
 
 .dark .dark\:text-green {
   --un-text-opacity: 1;
-  color: #22c55e !important;
+  color: #44bd87 !important;
 }
 .dark .dark\:text-white {
-  color: rgb(241 245 249) !important;
+  color: #e3e3e3 !important;
 }
 
 .dark .dark\:bd-green {
   --un-text-opacity: 1;
   border: 1px solid !important;
-  border-color: #22c55e !important;
+  border-color: #44bd87 !important;
 }
 
 .dark body {
