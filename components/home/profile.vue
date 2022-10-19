@@ -3,7 +3,7 @@
         <div class="card mb-3 ps-0 pe-0 border border-0 mt-4 dark:bg-hitam">
             <div class="row g-2">
                 <div class="col-md-3 avatar justify-content-center p-2">
-                    <img src="/avatar.jfif" style="border:3px solid #22c55e" class="img-fluid rounded-circle fa-shake"
+                    <img src="/avatar.jfif" style="border:3px solid #44bd87" class="img-fluid rounded-circle fa-shake"
                         alt="NAMDEVEL">
                 </div>
                 <div class="col-md-9">
