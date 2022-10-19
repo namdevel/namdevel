@@ -19,7 +19,9 @@
   border: 1px solid !important;
   border-color: #44bd87 !important;
 }
-
+.dark .dark\:bd-ava-green {
+  border: 3px solid #44bd87 !important;
+}
 .dark body {
   background-color: #242424 !important;
 }

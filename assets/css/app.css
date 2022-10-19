@@ -2,6 +2,15 @@
   font-family: "Secular One", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #242424;
+}
+
 @media only screen and (max-width: 768px) {
   .avatar {
     width: 158px;
@@ -96,4 +105,8 @@ pre {
   height: 80px;
   object-fit: cover;
   border-radius: 0.5rem;
+}
+
+.bd-asli {
+  border: 3px solid #242424 !important;
 }
