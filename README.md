@@ -19,3 +19,4 @@ class Namdevel(ReadMe):
         self.occupation = "Freelance Developer"
         self.operating_system = "Windows, Arch, Linux"
 ```
+
