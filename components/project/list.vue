@@ -21,7 +21,8 @@
                     <img class="arthumb" :src="`${article.img}`" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                    <nuxt-link :to="article._path" class="text-decoration-none">
+                    <nuxt-link target="_blank" :to="'https://github.com/namdevel/' + article.title"
+                        class="text-decoration-none">
                         <h6 class="m-0 dark:text-white artitle dark:text-green">{{article.title}}</h6>
                         <p class="text-muted mb-0">{{article.description}}</p>
                     </nuxt-link>
