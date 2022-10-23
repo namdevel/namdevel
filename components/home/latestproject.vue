@@ -11,7 +11,8 @@ const query: QueryBuilderParams = { limit: 3, sort: { pid: -1 } }
                     <img class="mb-2" :src="`${article.img}`" style="width: 60px; height: 60px;">
                 </div>
                 <div class="flex-grow-1 ms-3">
-                    <nuxt-link :to="article._path" class="text-decoration-none">
+                    <nuxt-link target="_blank" :to="'https://github.com/namdevel/' + article.title"
+                        class="text-decoration-none">
                         <h6 class="m-0 dark:text-white artitle">{{article.title}}</h6>
                     </nuxt-link>
                     <p class="text-muted mb-0">{{article.description}}</p>
