@@ -1,4 +1,5 @@
 ---
+pid: "2"
 title: "7 Form Components For React Hook Form I Always Use"
 description: "Guess what? Nuxt content is awesome!"
 img: "/images/blog/2.png"
