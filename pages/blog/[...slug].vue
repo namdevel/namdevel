@@ -7,7 +7,7 @@ const { path } = useRoute();
 const { data } = await useAsyncData(`content-${path}`, async () => {
 
     let article = queryContent().where({ _path: path }).findOne();
-    let surround = queryContent().only(["_path", "title", "description"]).sort({ date: 1 }).findSurround(path);
+    let surround = queryContent('/blog').only(["_path", "title", "description"]).sort({ date: 1 }).findSurround(path);
     return {
         article: await article,
         surround: await surround,
