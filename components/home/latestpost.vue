@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import type { QueryBuilderParams } from '@nuxt/content/dist/runtime/types'
-const query: QueryBuilderParams = { path: '/blog', limit: 3, sort: { date: 1 } }
+const query: QueryBuilderParams = { limit: 3, sort: { pid: -1 } }
 </script>
 <template>
     <div class="row mb-5 g-3">
-        <p class="h4 mb-4 dark:text-green"><i class="fa-solid fa-newspaper me-2"></i> Featured Post</p>
-        <ContentList :query="query" v-slot="{ list }">
+        <p class="h4 mb-4 dark:text-green"><i class="fa-solid fa-newspaper me-2"></i> Recent Post</p>
+        <ContentList path="/blog" :query="query" v-slot="{ list }">
             <div v-for="article in list" :key="article._path" class="d-flex align-items-center">
                 <div class="flex-shrink-0">
                     <img class="mb-2" :src="`${article.img}`" style="width: 60px; height: 60px;">
