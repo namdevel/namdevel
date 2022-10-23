@@ -11,6 +11,6 @@ useHead({
 </script>
 <template>
     <section>
-        <h1>Projects</h1>
+        <ProjectList />
     </section>
 </template>
