@@ -13,6 +13,8 @@ useHead({
     { rel: 'icon', type: 'image/x-png', href: '/favicon.png' },
     { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Secular+One&display=swap' },
     { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap' },
+    { rel: 'preconnect', type: 'text/css', href: 'https://rsms.me/' },
+    { rel: 'stylesheet', type: 'text/css', href: 'https://rsms.me/inter/inter.css' },
     { rel: 'stylesheet', type: 'text/css', href: 'https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css' }
   ],
   script: [

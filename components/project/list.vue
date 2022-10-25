@@ -18,10 +18,10 @@
             <div v-for="article in list" :key="article._path" class="d-flex align-items-center ">
 
                 <div class="flex-shrink-0">
-                    <img class="arthumb" :src="`${article.img}`" />
+                    <img class="arthumb" :src="`${article.img + article.description}`" />
                 </div>
                 <div class="flex-grow-1 ms-3">
-                    <nuxt-link target="_blank" :to="'https://github.com/namdevel/' + article.title"
+                    <nuxt-link target="_blank" :to="'https://github.com/namdevel/' + article.description"
                         class="text-decoration-none">
                         <h6 class="m-0 dark:text-white artitle dark:text-green">{{article.title}}</h6>
                         <p class="text-muted mb-0">{{article.description}}</p>

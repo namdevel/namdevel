@@ -8,10 +8,11 @@ const query: QueryBuilderParams = { limit: 3, sort: { pid: -1 } }
         <ContentList path="/project" :query="query" v-slot="{ list }">
             <div v-for="article in list" :key="article._path" class="d-flex align-items-center">
                 <div class="flex-shrink-0">
-                    <img class="mb-2" :src="`${article.img}`" style="width: 60px; height: 60px;">
+                    <img class="mb-2 rounded-circle" :src="`${article.img + article.description}`"
+                        style="width: 60px; height: 60px;">
                 </div>
                 <div class="flex-grow-1 ms-3">
-                    <nuxt-link target="_blank" :to="'https://github.com/namdevel/' + article.title"
+                    <nuxt-link target="_blank" :to="'https://github.com/namdevel/' + article.description"
                         class="text-decoration-none">
                         <h6 class="m-0 dark:text-white artitle">{{article.title}}</h6>
                     </nuxt-link>
