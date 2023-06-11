@@ -19,7 +19,7 @@ type Github struct {
 func (g *Github) Init() {
     g.username = "namdevel"
     g.contacts = map[string]string{
-        "Discord": "namdevel#2302",
+        "Discord": "namdevel#7503",
         "Telegram": "devsprout",
     }
     g.alises = []string{"namdevel", "HEUSC"}
